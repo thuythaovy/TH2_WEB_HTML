@@ -1,0 +1,24 @@
+body {
+    background-color: #e0f7fa;
+    font-family:  'Tahoma', sans-serif;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+}
+li {
+    background-color: #f6fbb7;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+li:nth-child(even) {
+    background-color: #bdffbc;
+}
+li:hover {
+    background-color: #ffbaba;
+}
